@@ -1,1 +1,1 @@
-
+Para un desarrollador, dominar la terminal es una habilidad fundamental porque permite gestionar proyectos de manera mucho más rápida y eficiente que utilizando la interfaz gráfica tradicional. Al usar comandos, se eliminan pasos innecesarios como arrastrar y soltar elementos, optimizando el tiempo al crear, mover o buscar archivos de código estructurado. Además, la terminal es el puente directo para interactuar con herramientas esenciales del ecosistema de desarrollo, tales como los gestores de paquetes, servidores locales y sistemas de control de versiones como Git. 
