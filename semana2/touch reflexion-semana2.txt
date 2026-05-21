@@ -1,1 +1,1 @@
-
+El dominio de la terminal es fundamental para cualquier desarrollador porque permite gestionar proyectos con mayor velocidad y precisión que una interfaz gráfica. Al interactuar directamente con el sistema operativo, se facilita la automatización de tareas repetitivas mediante scripts y el manejo eficiente de servidores remotos donde no existe un entorno visual. Organizar archivos y directorios desde la línea de comandos optimiza el tiempo y previene errores de rutas en el código.
