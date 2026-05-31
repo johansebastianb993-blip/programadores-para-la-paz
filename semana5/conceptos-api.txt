@@ -1,0 +1,10 @@
+1. ¿Qué hace esta ruta (app.post('/reporte'))?
+   Esta ruta crea un endpoint utilizando el método HTTP POST en la dirección '/reporte'. 
+   A diferencia de los métodos GET (que se usan para solicitar o leer datos), el método POST se utiliza para enviar información desde el cliente (un formulario o aplicación) hacia el servidor de forma segura dentro del cuerpo de la petición (request body). 
+   La ruta recibe el texto enviado en 'req.body.mensaje' gracias al middleware express.json() y responde automáticamente con un objeto en formato JSON confirmando que el estado es "Reporte recibido" junto con el mensaje original.
+
+2. ¿Para qué podría servir en una aplicación comunitaria?
+   En un entorno de comunidad digital, esta ruta es fundamental para la interacción interactiva y segura por los siguientes motivos:
+   - Reporte de incidentes o alertas: Los vecinos o usuarios pueden enviar alertas de seguridad, reportar fallas en servicios públicos (ej. una luminaria rota, calles dañadas) o emergencias en tiempo real.
+   - Buzón de sugerencias y Convocatorias: Permite a los miembros enviar de manera privada propuestas, quejas o inscribirse en actividades de la junta comunitaria.
+   - Privacidad y Minimización de datos: Al viajar la información de forma interna en el cuerpo de la petición en lugar de la barra de direcciones (URL), se protege la privacidad del contenido enviado por el usuario, evitando que intermediarios lean fácilmente los datos.
