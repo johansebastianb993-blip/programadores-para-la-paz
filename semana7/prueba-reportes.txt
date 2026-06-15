@@ -1,0 +1,13 @@
+Al realizar una petición POST a la ruta http://localhost:3000/reportes, el servidor recibe el objeto JSON enviado por el cliente, le asigna un identificador dinámico auto-incremental basado en la longitud actual de la lista, y lo almacena dentro del array 'reportes' en la memoria del servidor. 
+
+Posteriormente, al consultar la ruta mediante una petición GET /reportes, el servidor responde devolviendo la lista completa (el array de objetos JSON). La respuesta esperada en el cliente tras registrar el primer reporte es:
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+Nota técnica: Al ser un almacenamiento persistente en memoria volátil, si el proceso de Node.js se detiene o reinicia, el array vuelve a inicializarse vacío ([]).
