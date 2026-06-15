@@ -1,0 +1,11 @@
+Análisis de comandos ejecutados:
+
+1. 'uname -a': Este comando muestra la información completa del sistema operativo y del núcleo (kernel) de Linux. Incluye el nombre del sistema operativo, el nombre de red del host (hostname), la versión y fecha de compilación del kernel, y la arquitectura del procesador (por ejemplo, x86_64 o aarch64).
+
+2. 'whoami': Este comando imprime el nombre de usuario de la sesión actual que está ejecutando la terminal de comandos.
+
+¿Por qué es útil conocer esta información al administrar un servidor?
+Conocer la información del sistema es crítico para la administración de servidores por tres razones principales:
+- Compatibilidad y Despliegue: Permite verificar si la arquitectura del procesador y la versión del kernel soportan las aplicaciones, contenedores o bases de datos que se planean instalar.
+- Seguridad y Parches: Identificar la versión exacta del kernel ayuda a saber si el sistema es vulnerable a fallos de seguridad conocidos y si requiere actualizaciones urgentes.
+- Gestión de Permisos: Saber con qué usuario se está operando ('whoami') evita errores graves de privilegios (como ejecutar tareas cotidianas como 'root' o administrador, lo cual viola el principio de mínimo privilegio).

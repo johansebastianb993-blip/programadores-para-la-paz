@@ -1,0 +1,5 @@
+1. Principio de Minimización de Datos: No recopilar ni exponer datos personales reales (Habeas Data) si no es estrictamente necesario, protegiendo la privacidad de los miembros de la comunidad.
+2. Gestión Segura de Credenciales: Almacenar contraseñas mediante funciones criptográficas de hash (como bcrypt) y utilizar archivos '.env' protegidos por '.gitignore' para las API keys y tokens.
+3. Implementación de Conexiones Cifradas (HTTPS): Utilizar certificados SSL/TLS para garantizar que toda la información que viaja entre los usuarios y la plataforma comunitaria esté encriptada y no pueda ser interceptada.
+4. Registro y Auditoría de Accesos: Implementar 'logs' o registros de actividad del sistema para monitorear accesos inusuales o intentos fallidos de autenticación.
+5. Control de Acceso Basado en Roles (RBAC): Limitar el acceso a los datos sensibles o funciones de administración, asegurando que los usuarios solo tengan los permisos mínimos necesarios para cumplir su rol en el proceso participativo.
