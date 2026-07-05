@@ -1,0 +1,14 @@
+RESPUESTAS DE PLANIFICACIÓN DE LA ITERACIÓN
+
+1. ¿Qué 2 tareas del backlog harías primero?
+Haría primero las tareas 1 y 2: El registro de solicitudes por parte del ciudadano con evidencias y la clasificación inicial de los reportes como "pendiente_revision" por el administrador.
+
+2. ¿Por qué son las más importantes?
+Son las más importantes porque constituyen la base operativa y funcional del proyecto. Sin datos capturados en el sistema y sin un estado inicial asignado, es imposible ejecutar análisis de fondo, automatizar flujos secundarios en Telegram o estructurar la visualización del dashboard. Primero se debe asegurar el canal de entrada de la información.
+
+3. ¿Qué significa para ti que una tarea esté “terminada”?
+Para mí significa que el incremento de software es completamente funcional, seguro y transparente. Mi Definición de Terminado (Definition of Done - DoD) se compone de los siguientes 4 criterios:
+- Funciona: El código cumple la necesidad de la historia de usuario y se ejecuta sin errores en el entorno local.
+- Fue probada: Se realizaron pruebas de flujo con datos simulados y se verificó que las rutas de acceso estén debidamente protegidas.
+- Quedó registrada en Git: El código limpio se subió al repositorio de GitHub sin incluir credenciales ni archivos '.env'.
+- Documentada: Se actualizaron los estados en el tablero de seguimiento y la documentación mínima requerida.
