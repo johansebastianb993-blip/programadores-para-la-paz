@@ -1,0 +1,7 @@
+EXPLICACIÓN DE AUTENTICACIÓN Y SEGURIDAD
+
+El login en una aplicación es el mecanismo de control de acceso que permite identificar plenamente la identidad de un usuario a través de credenciales antes de otorgarle permisos dentro del sistema. 
+
+En una plataforma de veeduría social, ciertas rutas deben estar estrictamente protegidas porque manejan configuraciones internas, auditorías de datos o la capacidad de alterar estados de solicitudes que no deben estar disponibles para el público general. Si estas rutas permanecieran abiertas, se facilitaría el sabotaje, la inyección de datos falsos o la modificación malintencionada de las evidencias recaudadas. 
+
+Por motivos de seguridad y respeto a la privacidad, bajo ninguna circunstancia se debe exponer públicamente información confidencial como contraseñas, documentos de identidad (cédulas), números de teléfono, correos electrónicos particulares, tokens de sesión, llaves de API o datos sensibles que puedan poner en riesgo la integridad de los miembros de la comunidad.

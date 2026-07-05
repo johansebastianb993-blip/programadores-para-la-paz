@@ -1,0 +1,25 @@
+MODELO DE DATOS BÁSICO - PLATAFORMA COMUNITARIA
+
+Entidad: Causa
+Campos principales:
+- id (Entero, Clave Primaria, Autoincremental)
+- titulo (Texto, Obligatorio)
+- descripcion (Texto, Obligatorio)
+- sector (Texto, Obligatorio)
+- fecha_creacion (Fecha/Hora, Automática)
+- estado (Texto: "activa", "en_revision", "completada")
+
+Propósito:
+Almacenar de forma estructurada las iniciativas, proyectos o problemáticas del territorio reportadas por la comunidad que serán visibles públicamente en la plataforma para recibir respaldo ciudadano.
+
+---------------------------------------------------------
+
+Entidad: Apoyo
+Campos principales:
+- id (Entero, Clave Primaria, Autoincremental)
+- causa_id (Entero, Clave Foránea referenciando a Causa)
+- usuario_rol (Texto: "ciudadano", "revisor")
+- fecha_apoyo (Fecha/Hora, Automática)
+
+Propósito:
+Registrar de forma cuantitativa y transparente cada muestra de respaldo que recibe una causa específica, permitiendo medir el impacto y la participación del territorio sin necesidad de almacenar datos de carácter sensible.

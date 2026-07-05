@@ -1,0 +1,13 @@
+DISEÑO DE INTERFAZ BÁSICA Y RESPONSABLE
+
+La interfaz de la plataforma estará estructurada de manera limpia, intuitiva y segura mediante las siguientes secciones:
+
+1. Vista de causas disponibles: Una sección pública principal que renderiza en tarjetas claras las causas comunitarias activas, mostrando su título, descripción, sector y estado actual de forma transparente para cualquier visitante.
+
+2. Formulario para crear una causa: Un panel accesible únicamente para usuarios autenticados que contiene campos limpios para ingresar el título, la descripción y seleccionar el sector de la problemática. Este formulario incluye validaciones para evitar la inserción de texto malicioso.
+
+3. Botón para apoyar una causa: Ubicado dentro de cada tarjeta de causa activa. Al hacer clic, envía una solicitud interna que procesa el respaldo de manera inmediata.
+
+4. Contador de apoyos: Un elemento visual dinámico junto al botón de apoyo que muestra numéricamente cuántas personas han respaldado la iniciativa en tiempo real.
+
+Garantía de privacidad: La interfaz se diseña bajo el criterio de protección de información, lo que significa que el contador y las tarjetas solo reflejarán datos estadísticos y comunitarios del proceso, omitiendo por completo nombres, perfiles de usuario o cualquier dato privado en las vistas públicas.
