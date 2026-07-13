@@ -1,0 +1,16 @@
+Modelo de Datos - Petición en 3 Clics
+
+[Entidad: Causa]
+- id: identificador único (clave primaria) para cada causa creada.
+- titulo: título breve que resume la necesidad de la comunidad.
+- descripcion: texto detallado donde se explica la problemática y lo que se solicita.
+- fecha: día y hora en la que se registró la causa en el sistema.
+
+[Entidad: Apoyo]
+- id: identificador único (clave primaria) de cada firma o respaldo individual.
+- causa_id: identificador de la causa que se está respaldando (clave foránea que conecta con la entidad Causa).
+- nombre: nombre de pila o iniciales del ciudadano que respalda la causa.
+- fecha: día y hora exacta en la que se registró el apoyo.
+
+Explicación del modelo:
+La entidad "Causa" sirve para definir y almacenar el problema o la propuesta colectiva. La entidad "Apoyo" sirve para registrar de manera individual cada firma de respaldo que recibe una causa específica. Están conectadas mediante una relación de "Uno a Muchos" (una Causa puede tener muchos Apoyos asociados).

@@ -1,0 +1,7 @@
+Diseño de Automatización de Notificaciones
+
+- Evento que activa la automatización: El registro exitoso de una nueva causa en la base de datos de la plataforma.
+- Canal de notificación: Bot de Telegram de la comunidad o canal automatizado mediante n8n.
+- Mensaje que se envía: 
+  "📢 ¡Atención Comunidad! Se ha registrado una nueva causa en la plataforma. Título: '[Título de la causa]'. Los invitamos a ingresar a la web, leer los detalles y sumarse con su firma para hacer posible este cambio."
+- Información que NO debe enviarse por seguridad y privacidad: No se deben enviar nombres completos, números de documentos de identidad (cédulas), números de teléfono, correos electrónicos personales, direcciones de vivienda ni comentarios de carácter sensible de los participantes.

@@ -1,0 +1,7 @@
+Flujo de Funcionamiento del Sistema "Petición en 3 Clics"
+
+1. Registro de la Causa: Un líder comunitario ingresa a la plataforma web y registra una necesidad colectiva (causa) mediante un formulario en HTML, detallando el título, la descripción y el objetivo de la petición.
+2. Almacenamiento en Base de Datos: El backend (desarrollado con Node.js y Express) recibe la información del formulario y guarda la nueva causa de forma segura en la base de datos para que sea visible públicamente.
+3. Recolección de Apoyos Ciudadanos: Otros miembros de la comunidad ingresan a la plataforma, leen la causa y deciden apoyarla ingresando sus datos mínimos de identificación mediante un formulario de respaldo.
+4. Conteo de Apoyos y Validación: El sistema actualiza de manera automática el total de firmas asociadas a esa causa específica, impidiendo registros duplicados para asegurar la transparencia del proceso.
+5. Generación del Documento Formal (PDF): Al alcanzarse la fecha límite o el número de apoyos requerido, el backend procesa los datos y genera automáticamente un documento formal en formato PDF con la petición oficial y el listado consolidado de respaldos.
